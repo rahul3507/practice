@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import './App.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { HookForm } from './components/hookForm';
 
 function App() {
  
@@ -42,6 +43,8 @@ function App() {
         <br />
         {error && <p style={{color: 'red'}}>{error}</p>}
       </form>
+
+      <HookForm/>
       
         
     </>
